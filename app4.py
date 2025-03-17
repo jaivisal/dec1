@@ -6,7 +6,7 @@ app = Flask(__name__)
 # IMDb Top 100 Movies API endpoint and headers
 url = "https://imdb-top-100-movies.p.rapidapi.com/"
 headers = {
-    'x-rapidapi-key': "6b8e7777dfmsh2e8f17c7f04119fp197dfbjsne827c89b6276",
+    'x-rapidapi-key': "246d880ef4msh116aac3e8e35bd1p147958jsnaa4a4359235d",
     'x-rapidapi-host': "imdb-top-100-movies.p.rapidapi.com"
 }
 
