@@ -25,7 +25,7 @@ def search_movies(movies, query):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        query = request.form.get('search_query1')
+        query = request.form.get('search_query')
         movies = get_top_movies()
         if isinstance(movies, list):
             movies = search_movies(movies, query)
