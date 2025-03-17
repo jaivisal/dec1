@@ -20,7 +20,7 @@ def get_top_movies():
 
 # Function to search movies by name
 def search_movies(movies, query):
-    return [movie for movie in movies if query.lower() in movie['id'].lower()]
+    return [movie for movie in movies if query.lower() in movie['title'].lower()]
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
